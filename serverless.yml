@@ -1,10 +1,10 @@
-service: node-in-aws-web
+service: node-in-aws-web-task2
 
-frameworkVersion: '2'
+frameworkVersion: '3'
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs16.x
   # setup profile for AWS CLI.
   # profile: node-aws
 
@@ -17,7 +17,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: rsschool-bakin-dima-serveless-task2
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
