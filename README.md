@@ -1,6 +1,6 @@
-`S3Bucket` [http://rsschool-bakin-dima-serveless-task2.s3-website-us-east-1.amazonaws.com/]
+[S3Bucket](http://rsschool-bakin-dima-serveless-task2.s3-website-us-east-1.amazonaws.com/)
 
-`CloudFront` [https://dp8tvx9v4uy6v.cloudfront.net/]
+[CloudFront](https://dp8tvx9v4uy6v.cloudfront.net/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
